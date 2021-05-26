@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eye_HDRP_Zombie
+  m_Shader: {fileID: 4800000, guid: d6b30579e4a17ae4f89d713d59c14241, type: 3}
+  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticMask:
+        m_Texture: {fileID: 2800000, guid: d9e87f40b033e4245bb68d58ff0930bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionVectorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail:
+        m_Texture: {fileID: 2800000, guid: e2d81eed3c8d580428baa06160f91a78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lens_Base_Normal:
+        m_Texture: {fileID: 2800000, guid: 8ee6d0418eaa08e40ad667b400177c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lens_Base_Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMask:
+        m_Texture: {fileID: 2800000, guid: 451268057d3fa344e8695ec36ec39129, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBMask:
+        m_Texture: {fileID: 2800000, guid: b564d03b3ed541d4985c6d5747d5ed30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sclera_Normal:
+        m_Texture: {fileID: 2800000, guid: 706dec3662c5592449ad9f43cc5ad0ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sclera_Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransmittanceColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AORemapMax: 1
+    - _AORemapMin: 0
+    - _ATDistance: 1
+    - _AddPrecomputedVelocity: 1
+    - _AlbedoAffectEmissive: 0
+    - _AlbedoBoost: 3.77
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffPostpass: 0.5
+    - _AlphaCutoffPrepass: 0.5
+    - _AlphaCutoffShadow: 0.5
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _Anisotropy: 0
+    - _BlendMode: 0
+    - _CausticDesaturation: 0.112
+    - _CausticFX_inDarkness: 0.368
+    - _CausticFX_inDarkness1: 1
+    - _CausticLightDirectionTweak: -1.68
+    - _CausticMixingForEmissive: 0.309
+    - _CausticPower: 1.55
+    - _CausticPower1: 10
+    - _CausticSize: 0.34
+    - _CoatMask: 1
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Cutoff: 0.5
+    - _DepthOffsetEnable: 0
+    - _DetailAlbedoScale: 1
+    - _DetailNormalScale: 1
+    - _DetailSmoothnessScale: 1
+    - _DiffusionProfile: 3.2180526
+    - _DiffusionProfileHash: 3.2180526
+    - _DisplacementLockObjectScale: 1
+    - _DisplacementLockTilingScale: 1
+    - _DisplacementMode: 0
+    - _DistortionBlendMode: 0
+    - _DistortionBlurBlendMode: 0
+    - _DistortionBlurDstBlend: 0
+    - _DistortionBlurRemapMax: 1
+    - _DistortionBlurRemapMin: 0
+    - _DistortionBlurScale: 1
+    - _DistortionBlurSrcBlend: 0
+    - _DistortionDepthTest: 1
+    - _DistortionDstBlend: 0
+    - _DistortionEnable: 0
+    - _DistortionScale: 1
+    - _DistortionSrcBlend: 0
+    - _DistortionVectorBias: -1
+    - _DistortionVectorScale: 2
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 1
+    - _Drag: 1
+    - _DstBlend: 0
+    - _EmissiveColorMode: 1
+    - _EmissiveExposureWeight: 1
+    - _EmissiveIntensity: 1
+    - _EmissiveIntensityUnit: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _EnableGeometricSpecularAA: 0
+    - _EnableMotionVectorForVertexAnimation: 0
+    - _EnableSpecularOcclusion: 0
+    - _EnableWind: 0
+    - _EnergyConservingSpecularColor: 1
+    - _EyeBallMetalness: 0.349
+    - _EyeBallMetalness1: 0
+    - _EyeShadingAmount: 0.875
+    - _EyeShadingPower: 0.05
+    - _EyeSize: 0.89
+    - _EyeSize1: 1
+    - _Eyeball_microScatter: 2.61
+    - _Eyeball_microScatter1: 0
+    - _FakeLightIntesity: 1
+    - _FakeLightIntesity1: 1
+    - _FinalEmission: 0.145
+    - _FinalMetalness: 0.17
+    - _FinalNormalPower: 0.314
+    - _FinalSmoothness: 1.01
+    - _Float0: 0.5
+    - _Float1: 1
+    - _HdrpVersion: 2
+    - _HeightAmplitude: 0.02
+    - _HeightCenter: 0.5
+    - _HeightMapParametrization: 0
+    - _HeightMax: 1
+    - _HeightMin: -1
+    - _HeightOffset: 0
+    - _HeightPoMAmplitude: 2
+    - _HeightTessAmplitude: 2
+    - _HeightTessCenter: 0.5
+    - _InitialBend: 1
+    - _InvTilingScale: 1
+    - _Ior: 1
+    - _IridescenceMask: 1
+    - _IridescenceThickness: 1
+    - _IrisBaseLerpPLX: 0
+    - _IrisPupilBond: 0.031
+    - _IrisPupilMaskTweaker: 0
+    - _IrisPupilMetalness: 0.431
+    - _IrisPupilMetalness1: 0
+    - _IrisRotationAngle: 2.8
+    - _IrisRotationAnimation: 0.3
+    - _IrisRotationAnimation1: 0
+    - _IrisSize: 3.05
+    - _IrisSize1: 1
+    - _IrisToEmissive: 0.94
+    - _LensGloss: 0.845
+    - _LensGloss1: 0.98
+    - _LensPush: 1.11
+    - _LensPush1: 0.64
+    - _LensTweak_PreAdd: 0
+    - _LensTweak_PreMul: 1
+    - _LightIntesity: 1
+    - _LightPowerControl: 0.104
+    - _LimbalEdge_Adjustment: 0.192
+    - _LimbalEdge_Adjustment1: 0
+    - _LimbalRingGloss: 0.112
+    - _LimbalRingGloss1: 0
+    - _LimbalRingMetalness: 0.29
+    - _LimbalRingMetalness1: 0
+    - _LinkDetailsWithBase: 1
+    - _MaterialID: 1
+    - _Metallic: 0
+    - _MicroScatterScale: 0.248
+    - _MinimumGlow: 0.408
+    - _MinimumGlow1: 0.2
+    - _NormalMapSpace: 0
+    - _NormalScale: 1
+    - _PLX_PostAdd: 0
+    - _PLX_Power: 0
+    - _PLX_PpstAdd: 0
+    - _PLX_PreAdd: 0
+    - _PPDLodThreshold: 5
+    - _PPDMaxSamples: 15
+    - _PPDMinSamples: 5
+    - _PPDPrimitiveLength: 1
+    - _PPDPrimitiveWidth: 1
+    - _PRLXSize: -2.24
+    - _PRLX_H1: 0.03
+    - _PWR_IrisPupilZone: 0.04
+    - _PreAdd: 0.05
+    - _PreAdd_PRLXMask: 0
+    - _PreAdjust_ParallaxMask: 0.11
+    - _PreMul: 1.13
+    - _PrePower_PRLXMask: 0
+    - _PupilAffectedByLight_Amount: 1
+    - _PupilAffectedByLight_Amount1: 0
+    - _PupilAutoDilateFactor: 1
+    - _PupilAutoDilateFactor1: 0
+    - _PupilHeight1Width1: 1
+    - _PupilHeightWidth2: 1
+    - _PupilMaskLerp: 0
+    - _PupilParallaxHeight: 2.25
+    - _PupilParallaxHeight1: 2.5
+    - _PupilSharpness: 0.9
+    - _PupilSharpness1: 5
+    - _PupilSize: 79
+    - _PupilSize1: 70
+    - _PushParallaxMask: 0.24
+    - _PushParallaxMask1: 1
+    - _ReceivesSSR: 1
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 1
+    - _SSRefractionProjectionModel: 0
+    - _ScleraBumpScale: 3.42
+    - _ScleraBumpScale1: 0
+    - _ShadingBias: -0.06
+    - _ShadingPower: 1.47
+    - _ShadingScale: 1.52
+    - _ShiverDirectionality: 0.5
+    - _ShiverDrag: 0.2
+    - _Smoothness: 0.5
+    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMin: 0
+    - _SpecularAAScreenSpaceVariance: 0.1
+    - _SpecularAAThreshold: 0.2
+    - _SrcBlend: 1
+    - _StencilRef: 4
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 14
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _Stiffness: 1
+    - _SubSurfaceFromDirectionalLight: 0.707
+    - _SubSurfaceFromDirectionalLight1: 0.5
+    - _SubsurfaceMask: 1
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _TexWorldScale: 1
+    - _TexWorldScaleEmissive: 1
+    - _Thickness: 0.403
+    - _ThicknessMultiplier: 1
+    - _TransmissionEnable: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 1
+    - _UVBase: 0
+    - _UVDetail: 0
+    - _UVEmissive: 0
+    - _UseEmissiveIntensity: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestModeDistortion: 8
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - __dirty: 0
+    - _irisAreaPreAdd: 0
+    - _irisAreaPrePower: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffusionProfileAsset: {r: 6.3371816e-23, g: -541.09875, b: -2719838.2, a: 9.396211e+28}
+    - _DiffusionProfile_asset: {r: 6.3371816e-23, g: -541.09875, b: -2719838.2, a: 9.396211e+28}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
+    - _EyeBallColorGlossA: {r: 0.7876246, g: 0.8584906, b: 0.71675867, a: 0.92941177}
+    - _EyeBallColorGlossA1: {r: 1, g: 1, b: 1, a: 0.853}
+    - _EyeVeinColorAmountA: {r: 0.5566038, g: 0.5189176, b: 0.09189212, a: 1}
+    - _EyeVeinColorAmountA1: {r: 0.37499997, g: 0, b: 0, a: 0}
+    - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
+    - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _IrisBaseColor: {r: 0.2702923, g: 0.2735849, b: 0.07097722, a: 1}
+    - _IrisBaseColor1: {r: 0.49997014, g: 0.5441177, b: 0.4641003, a: 1}
+    - _IrisExtraColorAmount: {r: 0.8584906, g: 0.8562755, b: 0.23891956, a: 1}
+    - _IrisExtraColorAmountA: {r: 0.08088232, g: 0.07573899, b: 0.0469831, a: 0.591}
+    - _IrisExtraColorAmountA1: {r: 0.08088235, g: 0.075739, b: 0.046983123, a: 0.591}
+    - _PupilColorEmissivenessA: {r: 0.056603767, g: 0.16470589, b: 0.0456568, a: 0}
+    - _PupilColorEmissivenessA1: {r: 0, g: 0, b: 0, a: 0}
+    - _RingColorAmount: {r: 0.18867916, g: 0.018689923, b: 0.05599062, a: 0.25490198}
+    - _RingColorAmount1: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
+    - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
+    - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}

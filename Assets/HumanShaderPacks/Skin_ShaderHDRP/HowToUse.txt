@@ -1,0 +1,87 @@
+Hi and thank you for Purchasing
+Simple and Advanced Skin Shader for Unity.
+
+Version 1.35
+Added SimpleSSS6 and SimpleSSS7 which takes the best features of the Advanced shaders with more Forward compatibility with other packages. It also supports 2 RGB Makeup Mask slots for making custom Makeup effects. 
+Control Colour and Amount of each Channel, the amount is controlled by the Alpha slider of that particular colour. You can also adjust the gloss for each of these as per the example of the female head.
+SSS7 has the extra Normal Map controls for any detail work you may have on a texture such as a cut or scar that you want to gradually drive in along with the makeup strengths. An example script has been made to get you started
+on manipulating these shader values by code but may needed extended to reflect which shader you decide to use.
+
+Version 1.31 
+Added Advanced Shader version Mar23_A to include better rim scatter control. 
+Often seen when light gets just around the corner of a surface. Control driven by porosity and other additional factors. 
+
+Version 1.25
+Advanced Skin Shader - Versions Feb19 and Mar19
+Mar 19 uses an extra slot to drive make up or any other features via RGB paint that matches your texture, just paint an RGB 
+texture onto a black backgroud that lines up with your faces texture and then control the final colors and glitter
+from their alpha slider when changing colors.
+
+NEWER FUNCTIONS: (March 23rd, 2019)
+
+SSSDirectPower:  How much sub surface texture gets shown from the main light (directional light)
+AlbedoAndSSS Mix: How much of the base texture mixes with the SSS texture at a base level
+Increase SSS: Boost the original SSS Map Tones
+Increase SSS Weightmap: Add more values to the SSS wightmap (found in the alpha channel of the SSS-Weight Texture map)
+Increase BackLitAmount: Will boost the effect of back scattering (based on the SSS-weight map and additonal power added)
+RimScatterAmount: When Light hits the surface, some light can reach around penetrating the surface of the skin but enhancing the redness, use this to control that effect.
+Rim_AffectedByPorosity: Porosity is obtained from the gloss map and the micro scattering internally.
+Porosity Power: the porosity is bossted in the shader
+Porosity Effect: the effect of porosity is enhanced in the shader
+Skin Glow: A base value of the skin tone, even in darkness
+FuzzColor-Amount(A): the color of the fuzz (around the edges), the alpha slider will control the amount.
+SSS-BaseColor: for tiniting the original SSS-Color in the texture. White if you are happy with the texture colors.
+
+Textures:
+SSS-Weight : the color and details seen from sub surface scattering, such as veins, pores, under the skin details. The Alpha channel carries the weight or thickness, White is a thinner area
+so more scattering will happen than darker areas. Typically ears and nose, some other areas too.
+
+Other textures are Standard PBR.
+
+MakeUp-RGB: an RGB mask that lines up with the face to control extr coloring, particularly for make up.
+RED : Mask for color control 1 - Alpha will control the glitter amount
+GREEN : Mask for color control 2 - Alpha will control the glitter amount
+BLUE : Mask for color control 3 - Alpha will control the glitter amount
+Color Power (RGB) Adjusting for each channel respectively R/G/B
+Gloss Adjusting (RGB) for each channel respectively R/G/B
+
+Glitter control:
+Scale and Amount, these are gained from the above RGB masked alpha levels
+
+-------------------------------------------------------------------------------------
+
+OLDER FUNCTIONS:
+
+The material settings for this shader are as follows:
+
+[Translucency]
+Strength: How strong the effect is
+Normal Distortion: The Shift off to the edge the effect is
+Scattering Falloff: Lower values means more area covered
+Direct: How much affect direct lights have on the effect
+Ambient: How much ambient lights have an effect of it
+Shadow: How much shadows play a role in the overall effect
+SSS-Multiply: A Pre-multiplied effect on the Translucency tetxure map
+SSS-Add: A premultiplied add on the Translucency map after multiplication above.
+BaseGlow: Self Illumination using the current Albedo and or color.
+
+[Textures]
+Albedo: The base colour Texture
+Color: A color tint or tone to use
+SSS: Your thickness or translucency texture
+SSS-Tint: You can alter the tint of the SSS effect
+Normal: Your normal map
+Metal(R)-Smooth(G): A texture packed texture where Metalness is
+in the Red Channel and Smoothness(or Gloss) is in the Green channel.
+Metalness_Add: Additional/Subtractional Metalness value overall
+Smoothness_Add: Additional/Subtractional Smoothness value overall
+-----------------
+
+Any more requests based on this shader, I will be happy to provide
+variations of this texture depending on your needs, all you have to 
+do is get in touch be email: me@robertramsay.co.uk
+
+Many Thanks!
+
+
+

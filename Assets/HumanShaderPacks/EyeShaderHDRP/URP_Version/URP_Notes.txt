@@ -1,0 +1,4 @@
+To use this URP version, please import this package into your URP project and use the scene from its own folder, plus any materials from it.
+Simply unpacking the URP package wont overwrite the HDRP shaders themselves and is treated as its own thing.
+
+If you need direct assistance contace me by email : me@robertramsay.co.uk I am always happy to help and will respond within 48 hours.

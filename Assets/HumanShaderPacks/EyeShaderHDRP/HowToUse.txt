@@ -1,0 +1,126 @@
+Welcome to the Eye-Ball Shader - Created using Amplify Shader - Unity 2017.x
+
+Version 1.9 - 27th Feb, 2019
+	Added auto dilate for the pupil (EyeShader3) - Requires a Directional light, affected by direction into the eye and intensity.
+	Use the 'PupilAffectedbyLight_Amount' Slider for it to have an effect (1 is full effect)
+	Use the 'PupilAutoDilateFactor' Slider to boost or multiply the effect it has.
+	Base Eyes for Eye Shader Model 3 have been updated to make use of this new feature.
+	
+Version 1.85 - Feb 13th 2019
+	Added and improved microscatter control for the eye whites. Added soft caustic mask. Improved appearance of Zombie, Blue and Brown example eyes. (Eye shader 3)
+	Added microscatter scale for extra effect 
+
+Version 1.5 - Jan 29th 2019
+	Parallax control via texture added to Eye Shader 3
+	Internal variable enhanced for better results
+
+	Planned in next update: 
+		Eye Shader model 4 with Multi Layer Iris control as well as full round->Cat Eye Shape 
+		distorion on both the pupil and Iris (may take some time to develope)
+		Web Demo to be added.
+
+--------------------------------------------------
+
+Version 1.34 - Jan 28th 2019
+
+Added Parallax to the Iris and Pupil for Eye Shader 1 as well as some other changes such as SSS suport 
+and improvements to the Caustic effect (still in development)
+
+Added parallax to Pupil only for Eye Shader 2
+
+Planned in next update: 
+		Eye Shader model 3 in progress to be a refined version of both Eye Shader models - CONSIDERED COMPLETE
+		Eye Shader Advanced will feature a multi layering system for driving more detailed results. - CONSIDERED COMPLETE
+		Improved Caustic Effect (will be revised for simpler but more idealistic results). - CONSIDERED COMPLETE
+
+--------------------------------------------------
+
+Version 1.1 - Dec 7th 2018
+
+New Eye Shader Model 2 added with extra control and costomisable iris and pupil along with extra color and rotation control.
+If using your own texture, be sure to set their wrap mode to Clamp in the texture inspector. This will ensure they do not tile over the eye
+unless you intend to utilise it that way.
+
+To use a custom pupil, be sure the 'Use custom pupil' check box is checked and inverting this pupil texture is optional for an experimental effect.
+Iris and Pupil both have rotation speed sliders, set these to 0 if you do not want rotation.
+
+IrisExtraDetail is where you will load in your custome Iris, this will overlay the Iris Base Color
+Iris Extra Color - Amount is the color of the custom iris texture, the alpha slider controls the amount it is seen.
+
+Currently the Custom Pupil is Black only and is the last to be drawn so will effectively hide the color detail underneath,
+if in the case you do not see anything in the eye, reduce the Pupil Size slider to a small value.
+
+LOD0 and LOD1 has been added.
+
+--------------------------------------------------
+
+
+Version 1.0 - Dec 2018
+
+Use for medium-low spec characters, or even high ones if you wish. Optimized. Uses fake Caustics and Lens effects, intended for games and semi-realistic or cartoony styles.
+
+
+Textures Supplied and required:
+
+EyeExtras (RGB Mask) : (best not to change this, make a copy)
+	Red: Ring
+	Green: Scalera (redness+Veins)
+	Blue: Iris Area Mask
+
+IrisExtra: (Make a copy and make your own iris details!)
+	A greyscale mask for the extra iris details
+
+NormalMapBase: This is used for the lens effect, keep as is.
+
+--------------------------------------------------
+
+Shader Parameters:
+
+
+Texture slots of those mentioned above.
+
+EyeBallColor-Gloss(A) : The color of the main eyeball area and the gloss
+is controlled by the alpha slider/amount.
+
+Iris Color: The main Iris Color.
+
+Iris Extra Color-Amount(A): The color of the IrisExtra Texture and the amount it is seen is controlled by the Alpha slider in the color.
+
+Ring Color : The Color of the ring.
+
+IrisGlow: Emissiveness of the overal iris coloring.
+
+LensGloss: The Glossyness of the lens
+
+LensPush: Uses the Normal Map to push the lens area to fake the lens effect.
+
+Caustic Power: Boosts the caustic light
+Caustic Factor: Changes the Caustic Range of effect.
+
+Pupil Size: The scale of the pupil
+Pupil Width: <1 is more like a sheeps eye, >1 is more like a reptile eye, 1=perfectly round.
+
+Veins: The amount of veins area seen (veins come from the Green channel of the EyeExtras Mask, they are multiplied by a red color internally).
+
+--------------------------------------------------
+
+
+
+Ten EyeBalls have been created as starting points, be sure to duplicate their materials to make your own so you can easily get back to a good starting point. Enjoy the video on YouTube via the Asset Store Page to get a better idea of how this works!
+
+The Top 6 use the EyeShaderModel1
+The Bottom 4 use the EyeShaderModel2
+
+Many Thanks
+Contact me for requests and update suggestions: me@robertramsay.co.uk
+
+
+
+
+
+
+
+
+
+
+

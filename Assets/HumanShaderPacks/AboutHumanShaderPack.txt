@@ -1,0 +1,19 @@
+A set of Shaders for improved visualisation of Skin, Hair and Eyes. Ideally suited for characters.
+
+HDRP - 7.18 (Uses latest SSS - Diffusion Profile lighting model)
+URP + SRP included in their own folders (Mimic SSS for both models, URP will be refined as that lighting model stabilises)
+
+Diffusion Profiles, Materials, Prefabs all premade as examples only. Results will depend on textures fed into the materials/shaders.
+
+For more information and help in setting things up, you should contact me, my email is me@robertramsay.co.uk
+I normally respond on the same day with a solution or video guidance if you need it. I do not respond well to reviews that are error
+reports. Everything is working at point of submitting to the store where Unity also check compatibility on the submitted version.
+
+HDRP Version - 2019.3.0f3
+URP - 2019.3.0f3
+SRP - 2018.4.14f1 LTS
+
+These shaders are in constant development based on your feedback, get in touch, leave a nice review that reflects both the quality of 
+the product and the help you have recieved as it will help me to grow and continue support! I want your games to look great too!
+
+Robert Ramsay - RRFreelance / PiXelburner

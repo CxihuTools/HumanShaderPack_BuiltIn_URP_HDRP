@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HDRP_ASE_Lit_SSS
+  m_Shader: {fileID: 4800000, guid: c76a6d7ff6007e34aac7c10a38eddeaa, type: 3}
+  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: ac4faf4063f480b46af72cd620d04440, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo1:
+        m_Texture: {fileID: 2800000, guid: ac4faf4063f480b46af72cd620d04440, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: 71f90091d15d707468a6dbc256f509c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask1_RGB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask1_RGB1:
+        m_Texture: {fileID: 2800000, guid: a707636a483c29f468a3a8103ee280f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask2_RGB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask2_RGB1:
+        m_Texture: {fileID: 2800000, guid: f741a9a852f37114883f4edcc8a4f63b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 287acedd1e86ed140951c44576dc5b5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetailNormalMap1:
+        m_Texture: {fileID: 2800000, guid: e7dd5b7c12b3591459151c5a34fc2edd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetail_WeightMapGreyscaleR:
+        m_Texture: {fileID: 2800000, guid: 7a3b1f679607db44f87bf2ac8402c1d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetail_WeightMapGreyscaleR1:
+        m_Texture: {fileID: 2800000, guid: 7a3b1f679607db44f87bf2ac8402c1d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 203173d0b9b1dae4f94c39ce54c4f7d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap1:
+        m_Texture: {fileID: 2800000, guid: 203173d0b9b1dae4f94c39ce54c4f7d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSColThickA:
+        m_Texture: {fileID: 2800000, guid: 60d1bb1afb148d9409b39ccf586ba390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _BaseNormalMap_Power: 0.67
+    - _BlendMode: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DP_Power: 6.58
+    - _DiffusionProfile: 3.6754553
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _Emissive: 0.017
+    - _EnableFogOnTransparent: 1
+    - _FinalMakeUpPower: 0
+    - _FinalNormalMapPower: 2
+    - _FinalNormalMapPower1: 1
+    - _Float0: 2.7317202
+    - _GlossAdjust_Mask1Bchannel: -1
+    - _GlossAdjust_Mask1Bchannel1: 0.53
+    - _GlossAdjust_Mask1Gchannel: 0
+    - _GlossAdjust_Mask1Gchannel1: 0.62
+    - _GlossAdjust_Mask1Rchannel: 0
+    - _GlossAdjust_Mask1Rchannel1: 1
+    - _GlossAdjust_Mask2Bchannel: 0
+    - _GlossAdjust_Mask2Bchannel1: 0.51
+    - _GlossAdjust_Mask2Gchannel: 0
+    - _GlossAdjust_Mask2Gchannel1: 0.53
+    - _GlossAdjust_Mask2Rchannel: 0
+    - _GlossAdjust_Mask2Rchannel1: 0.63
+    - _GlossIsAlphaChannel: 1
+    - _GlossToClearCoat: 0
+    - _GlossynessDeviate: 0.05
+    - _MakeUpColorPower: 0.51
+    - _MaskEffect: 1
+    - _MicroDetailWeightPower: 0.84
+    - _MicroDetail_Offset: 0
+    - _MicroDetail_Offset1: 0.32
+    - _MicroDetail_Power: 1
+    - _MicroDetail_Power1: 1.9
+    - _MicroDetail_Tiling: 11.4
+    - _MicroDetail_Tiling1: 26.5
+    - _ReceivesSSR: 1
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 1
+    - _SSSWeightMaskEffect: 1
+    - _SmoothnessDeviate1: 0
+    - _SrcBlend: 1
+    - _StencilRef: 1
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 64
+    - _StencilRefGBuffer: 1
+    - _StencilRefMV: 128
+    - _StencilWriteMask: 3
+    - _StencilWriteMaskDepth: 48
+    - _StencilWriteMaskDistortionVec: 64
+    - _StencilWriteMaskGBuffer: 51
+    - _StencilWriteMaskMV: 176
+    - _SurfaceType: 0
+    - _Thickness: 1
+    - _ThicknessMapFlipper: 1
+    - _ThicknessMapMultiplier: 0.34
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _TransparentZWrite: 1
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _Albedo_Tint1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 1, g: 0.7971698, b: 0.7971698, a: 0}
+    - _DiffusionProfile_asset: {r: 0.000107057494, g: -2.1085306e-36, b: 6.0866836e+24,
+        a: 8.9448e+23}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Float0_asset: {r: -1.405437e+32, g: 2.0030989e-26, b: 0.00000006313206, a: -4.4045647e-18}
+    - _Mask1_Bchannel_ColorAmountA: {r: 0.19999996, g: 0.40633398, b: 0.772549, a: 0.7843137}
+    - _Mask1_Bchannel_ColorAmountA1: {r: 0, g: 0.028357267, b: 1, a: 1}
+    - _Mask1_Gchannel_ColorAmountA: {r: 0.19999996, g: 0.772549, b: 0.49173808, a: 0.7843137}
+    - _Mask1_Gchannel_ColorAmountA1: {r: 0, g: 1, b: 0.23830745, a: 1}
+    - _Mask1_Rchannel_ColorAmountA: {r: 0.7735849, g: 0.20069417, b: 0.32331887, a: 0.7843137}
+    - _Mask1_Rchannel_ColorAmountA1: {r: 1, g: 0, b: 0, a: 1}
+    - _Mask2_Bchannel_ColorAmountA: {r: 0.772549, g: 0.7037676, b: 0.19999996, a: 0.7843137}
+    - _Mask2_Bchannel_ColorAmountA1: {r: 0, g: 0, b: 0, a: 1}
+    - _Mask2_Gchannel_ColorAmountA: {r: 0.772549, g: 0.19999996, b: 0.6776864, a: 0.7843137}
+    - _Mask2_Gchannel_ColorAmountA1: {r: 0, g: 0.87469363, b: 1, a: 1}
+    - _Mask2_Rchannel_ColorAmountA: {r: 0.19999996, g: 0.772549, b: 0.7071339, a: 0.7843137}
+    - _Mask2_Rchannel_ColorAmountA1: {r: 1, g: 0, b: 0.43018675, a: 1}
