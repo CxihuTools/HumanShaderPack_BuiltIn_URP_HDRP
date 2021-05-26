@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EyeBall_Cyborg2
+  m_Shader: {fileID: 4800000, guid: c925503063888604aa4d492129aa0699, type: 3}
+  m_ShaderKeywords: _CUSTOMPUPILROTATE_ON _USECUSTOMPUPIL_ON _USEDIRECTIONAL_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 579a3650a488a7b48bc32d6e26017242, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticEffectArea:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticEffectBand:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomPupil:
+        m_Texture: {fileID: 2800000, guid: f6339c90c4ecdb345b2c589184d78f43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeArea:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeExtras:
+        m_Texture: {fileID: 2800000, guid: d0431c3a16ed8b54c8d648bb79ca09a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeExtrasMask:
+        m_Texture: {fileID: 2800000, guid: 7279c4b0bec10f442a956ce8acc2046d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeNormalPusher:
+        m_Texture: {fileID: 2800000, guid: c85b6cc261ad6134cbc7d22d2221085b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail:
+        m_Texture: {fileID: 2800000, guid: 7b7c97e104d9817418725e17f5ca2659, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisMask:
+        m_Texture: {fileID: 2800000, guid: 3b285e161f939704e9c3e00c801af625, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapBase:
+        m_Texture: {fileID: 2800000, guid: 8ee6d0418eaa08e40ad667b400177c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pupil:
+        m_Texture: {fileID: 2800000, guid: a17d897f6feb76d4c93d1ac71798024e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 7b7c97e104d9817418725e17f5ca2659, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 3b285e161f939704e9c3e00c801af625, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BoostEyeWhite: 1.471
+    - _BumpScale: 1
+    - _CausticFactor: 1.49
+    - _CausticOffset: 1.05
+    - _CausticPower: 0.81
+    - _CausticScale: 1.82
+    - _CausticSize: 0.74
+    - _ChromaticAberration: 0.1
+    - _CustomPupilContrast: 2
+    - _CustomPupilRotate: 1
+    - _CustomPupilRotateSpeed: -0.57
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Exponent: 1.5
+    - _Float0: 0
+    - _Float1: -0.02
+    - _Gloss: 0.92
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _InvertCustomPupil: 0
+    - _IrisExtraRotate: 0.68
+    - _IrisGlow: 6.63
+    - _IrisRotateSpeed: 0
+    - _IrisSize: 4.4
+    - _LensDistort: 0
+    - _LensGloss: 0.914
+    - _LensPush: 0.683
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: -1.3
+    - _PupilHeight1Width1: 1
+    - _PupilHeightWidth: 1
+    - _PupilSharpness: 4.08
+    - _PupilSize: 51.6
+    - _PupilWidth: 1
+    - _RefractionIndex: 0.38
+    - _Sharpness: 5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TexScaleCenter: 9.26
+    - _UVSec: 0
+    - _UseCustomPupil: 1
+    - _UseDirectional: 1
+    - _Veins: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _ensEffectPower: 0
+    m_Colors:
+    - _Adjust: {r: 0.9264706, g: 0.8898252, b: 0.39511245, a: 0.228}
+    - _BaseTint: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0.029999971}
+    - _Color0: {r: 1, g: 0, b: 0, a: 0.878}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EyeBallColorGloss: {r: 0.9117647, g: 0.8983564, b: 0.8983564, a: 0.641}
+    - _EyeBallColorGlossA: {r: 0.40905845, g: 0.74264705, b: 0.18020111, a: 0.928}
+    - _EyeVeinColorAmount: {r: 1, g: 0, b: 0, a: 1}
+    - _EyeVeinColorAmountA: {r: 0, g: 0, b: 0, a: 0.253}
+    - _IrisBaseColor: {r: 0.5514706, g: 0.23924091, b: 0.31030023, a: 0}
+    - _IrisColor: {r: 0.35247138, g: 0.50735295, b: 0.24621539, a: 0}
+    - _IrisExtraColorAmountA: {r: 0, g: 0, b: 0, a: 1}
+    - _LensBending: {r: 0, g: 0.13103437, b: 1, a: 0}
+    - _RingColor: {r: 0, g: 0.37931037, b: 1, a: 1}
+    - _RingColorAmountA: {r: 0, g: 1, b: 0.17241383, a: 0.841}
+    - _ScleraColorAmountA: {r: 1, g: 0.17647058, b: 0.17647058, a: 1}

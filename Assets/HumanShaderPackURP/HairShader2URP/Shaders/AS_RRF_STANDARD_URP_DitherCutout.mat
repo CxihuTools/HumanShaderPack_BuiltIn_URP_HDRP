@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AS_RRF_STANDARD_URP_DitherCutout
+  m_Shader: {fileID: 4800000, guid: a82ef87475bb9f642b3d5038b0573671, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: f4adb01b5f32e7545988dc0f1b66907b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraCuttingR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 3d4257ba8b685394098a9b4824c71361, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClipThreshold: 0.222
+    - _AlphaCutoff: 0.5
+    - _Alpha_Level: 1.07
+    - _BaseIllumination: 0.611
+    - _BumpPower: 1.05
+    - _Custom_ColourMix: 1
+    - _DitheringAmount: 0.188
+    - _LightScatter: 0.222
+    - _Light_Bias: 0.0141
+    - _Light_Scale: 1.41
+    - _MainHighlightExponent: 289
+    - _MainHighlightPosition: 0
+    - _MainHighlightStrength: 0.25
+    - _Metallic: 0.282
+    - _NoisePower: 122
+    - _PushHairs: 0
+    - _PushHairs_Bias: 0
+    - _SSS: 0.061
+    - _SecondaryHighlightExponent: 114
+    - _SecondaryHighlightPosition: 0
+    - _SecondaryHighlightStrength: 0.43
+    - _Spread: 0.46
+    - _Stretch: 0.4961396
+    - _XTiling: 0
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainHighlight_Color: {r: 0.6509434, g: 0.4211761, b: 0.26713246, a: 0}
+    - _SecondaryHighlightColor: {r: 0.31132078, g: 0.18649878, b: 0.18649878, a: 0}
+    - _VariantColor1_GlossA: {r: 0.8897059, g: 0.13083905, b: 0.13083905, a: 0.516}
+    - _Variant_Color2_GlossA: {r: 0.46226418, g: 0.17796108, b: 0.14173195, a: 0.516}
+  m_BuildTextureStacks: []

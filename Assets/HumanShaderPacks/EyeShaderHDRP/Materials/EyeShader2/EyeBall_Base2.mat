@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EyeBall_Base2
+  m_Shader: {fileID: 4800000, guid: c925503063888604aa4d492129aa0699, type: 3}
+  m_ShaderKeywords: _CUSTOMPUPILROTATE_ON _INVERTCUSTOMPUPIL_ON _USEDIRECTIONAL_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CustomPupil:
+        m_Texture: {fileID: 2800000, guid: af50dd7b02abcc04f9f1d88772c41b91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeExtrasMask:
+        m_Texture: {fileID: 2800000, guid: d0431c3a16ed8b54c8d648bb79ca09a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail:
+        m_Texture: {fileID: 2800000, guid: e2d81eed3c8d580428baa06160f91a78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapBase:
+        m_Texture: {fileID: 2800000, guid: 8ee6d0418eaa08e40ad667b400177c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BoostEyeWhite: 1
+    - _CausticOffset: 1
+    - _CausticPower: 0.3
+    - _CausticScale: 1
+    - _CustomPupilRotateSpeed: 0.54
+    - _InvertCustomPupil: 1
+    - _IrisGlow: 0.78
+    - _IrisRotateSpeed: 0
+    - _IrisSize: 6
+    - _LensGloss: 0.87
+    - _LensPush: 0.484
+    - _ParalaxH: -0.05
+    - _PupilHeight1Width1: 1
+    - _PupilParallaxHeight: 1.59
+    - _PupilSharpness: 5
+    - _PupilSize: 79.3
+    - _UseCustomPupil: 0
+    - __dirty: 0
+    m_Colors:
+    - _EyeBallColorGlossA: {r: 1, g: 1, b: 1, a: 0.878}
+    - _EyeVeinColorAmountA: {r: 0.5514706, g: 0.15003245, b: 0.15003245, a: 0.791}
+    - _IrisBaseColor: {r: 0.8161765, g: 0.4123098, b: 0.1020221, a: 0}
+    - _IrisExtraColorAmountA: {r: 0, g: 0, b: 0, a: 0.872}
+    - _RingColorAmountA: {r: 0, g: 0, b: 0, a: 0}

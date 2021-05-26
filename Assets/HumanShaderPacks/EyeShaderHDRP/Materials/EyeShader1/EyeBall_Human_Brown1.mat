@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EyeBall_Human_Brown1
+  m_Shader: {fileID: 4800000, guid: 465e83575dca6ce4d9a863c96235836b, type: 3}
+  m_ShaderKeywords: _USEDIRECTIONAL_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 579a3650a488a7b48bc32d6e26017242, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticEffectArea:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticEffectBand:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeArea:
+        m_Texture: {fileID: 2800000, guid: cd7866c163c4a1242973bf81abab3ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeExtras:
+        m_Texture: {fileID: 2800000, guid: d0431c3a16ed8b54c8d648bb79ca09a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeNormalPusher:
+        m_Texture: {fileID: 2800000, guid: c85b6cc261ad6134cbc7d22d2221085b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail:
+        m_Texture: {fileID: 2800000, guid: e2d81eed3c8d580428baa06160f91a78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisHeightR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisMask:
+        m_Texture: {fileID: 2800000, guid: 3b285e161f939704e9c3e00c801af625, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapBase:
+        m_Texture: {fileID: 2800000, guid: 8ee6d0418eaa08e40ad667b400177c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pupil:
+        m_Texture: {fileID: 2800000, guid: a17d897f6feb76d4c93d1ac71798024e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 7b7c97e104d9817418725e17f5ca2659, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 3b285e161f939704e9c3e00c801af625, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BoostEyeWhite: 1
+    - _BumpScale: 1
+    - _CausticFactor: 0.93
+    - _CausticOffset: 2.92
+    - _CausticPower: 0.9
+    - _CausticScale: 1.87
+    - _CausticSize: 0.74
+    - _ChromaticAberration: 0.1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Exponent: 1.5
+    - _EyeSize: 1
+    - _Float0: 0
+    - _Float1: -0.02
+    - _GlobalEmissive: 0.25
+    - _Gloss: 0.92
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IrisGlow: 2.02
+    - _IrisSize: 3.79
+    - _LensDistort: 0
+    - _LensGloss: 0.763
+    - _LensPush: 0.605
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _ParalaxH: -0.2
+    - _Parallax: -1.3
+    - _PowerFocal: 0
+    - _PupilHeight1Width1: 1
+    - _PupilHeightWidth: 1
+    - _PupilParallaxHeight: 1.62
+    - _PupilSharpness: 0.92
+    - _PupilSize: 79.2
+    - _PupilWidth: 1
+    - _RefractionIndex: 0.38
+    - _SSS: 0.07
+    - _Sharpness: 5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 7
+    - _UVSec: 0
+    - _UseDirectional: 1
+    - _Veins: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    - _ensEffectPower: 0
+    m_Colors:
+    - _Adjust: {r: 0.9264706, g: 0.8898252, b: 0.39511245, a: 0.228}
+    - _BaseTint: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0.029999971}
+    - _Color0: {r: 1, g: 0, b: 0, a: 0.878}
+    - _Direction: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EyeBallColorGloss: {r: 0.9117647, g: 0.8983564, b: 0.8983564, a: 0.641}
+    - _EyeBallColorGlossA: {r: 1, g: 1, b: 1, a: 0.697}
+    - _EyeVeinColorAmount: {r: 1, g: 0, b: 0, a: 1}
+    - _EyeVeinColorAmountA: {r: 1, g: 0, b: 0, a: 1}
+    - _IrisColor: {r: 0.59039795, g: 0.6691177, b: 0.6495735, a: 0.322}
+    - _IrisColorCausticLerpA: {r: 0.43382353, g: 0.23363112, b: 0.019139266, a: 0.678}
+    - _IrisExtraColorAmountA: {r: 0.66176474, g: 0.55169433, b: 0.26275954, a: 0.741}
+    - _LensBending: {r: 0, g: 0.13103437, b: 1, a: 0}
+    - _RingColor: {r: 0.3602941, g: 0.3602941, b: 0.3602941, a: 1}
+    - _RingColorAmount: {r: 0, g: 0, b: 0, a: 0}
+    - _ScleraColorAmountA: {r: 1, g: 0.17647058, b: 0.17647058, a: 1}

@@ -1,0 +1,36 @@
+
+Here is a brief on what is happening with VRTC and the wigs. (v1.60)
+
+Feb 18th, 2019: 
+First Wig created using the VRTC method. Wig 1a Female comes with 2 LODs for now (more lod's as things develope).
+
+VRTC uses a customised hair strand method where you have control over the final colours thanks to the shader that separated the RED, GREEN and BLUE channels of the texture. If you are using gimp or photoshop, click the little channels tab, ususally near the layers tab in the viewport.
+
+Red controls variation (black is one colour, white is another, grey is a mix of both)
+
+These are overwritten by the root and tip (Green channel and Blue channel)
+
+The result is full control over the cololur of the hair.
+
+A Bias and scale option has been added to the shader to boost these channel masks.
+
+Also, the Alpha slider when picking your colours in unity for the Root and Tip colours control how much gets through also. So no alpha means no effect, full alpha means fulleffect (of the Root/Tip mask)
+
+The variation colours from the Red channel, however, their alpha slider controls the gloss, which is also good to give extra variation. Their gloss values are independant.
+
+I hope you enjoy this shader and the new wigs currently being made.
+
+Later there will be a solution made so that wigs can be manipulated to fit many head types, some kind of Free-Form-Deformer (FFD). This is planed for late 2019 as I learn more about programming.
+
+If you want your hairs to move dynamically, add a cloth component then edit the weights. 0 for no movements (fixed) and 0.1 is a little movement, 0.2 is possibly as uch as you need, then you can play with the damepening and other settings.
+
+Please email me before reviewing if you are referring to defects or bugs as I will more than likely help you directly. I am active and resposive usually within 3 days. 
+
+If in doubt, reach me on discord: https://discord.gg/JzKYepC
+
+
+Many thanks,
+Get in touch if you want to suggest something for this pack! :)
+Robert Ramsay
+RRFreelance
+me@robertramsay.co.uk
