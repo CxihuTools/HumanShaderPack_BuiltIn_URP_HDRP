@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SSS_Experimental
+  m_Shader: {fileID: 4800000, guid: 9ce1841645cd1bd4dabd7459db2c6f4d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 58240c6d30fded1478c1244ec1ab79a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 1d9b4d817a26d39428f65e4c73302e6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSS_Weight:
+        m_Texture: {fileID: 2800000, guid: 30dedfcfe27870841b86eed73692e358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoPower: 0.724
+    - _AlphaClip: 0.087
+    - _AlphaCutoff: 0.5
+    - _AlphaPower: 5
+    - _DistanceFactor: 0.734
+    - _FinalMix: 1
+    - _Float0: 0.593
+    - _GoBetween: 0.95
+    - _Lerper: 0.977
+    - _LightBias: 0.54
+    - _LightBlend: 0.784
+    - _LightPower: 0.149
+    - _LightScale: 1.13
+    - _NormalPower: 1.01
+    - _Occlusion: 0.056
+    - _SSS_Mix: 0.416
+    - _SSS_Normal: 0.374
+    - _SSS_WeightControl: 0.555
+    - _Shininess: 1
+    - _Smoothness: 0.593
+    - _SpecBoost: 46.5
+    - _SpecColorInh: 0.9
+    - _Squeeze: 27.1
+    - _TintAlbedoPostMix: 0.946
+    m_Colors:
+    - _BaseTint: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 0.5660378, g: 0.06975984, b: 0.008009953, a: 0.050980393}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _SSS_BaseCol_BoostA: {r: 0.8679245, g: 0.17604116, b: 0.17604116, a: 1}
+    - _SSS_Deep: {r: 0.25471696, g: 0, b: 0, a: 0.02745098}
+    - _SSS_End: {r: 0.3962264, g: 0.08410467, b: 0.08410467, a: 0.25490198}
+    - _SSS_Light: {r: 1, g: 1, b: 1, a: 0.050980393}
+    - _SSS_Mid: {r: 0.6415094, g: 0.21572247, b: 0.20274118, a: 0.03529412}
+    - _SSS_Sub: {r: 0.7169812, g: 0.107107885, b: 0.037201855, a: 0.043137256}
+    - _SpecularColor: {r: 0.084905684, g: 0.0796992, b: 0.0796992, a: 1}

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: EyeShader3_DarkEye
-  m_Shader: {fileID: 4800000, guid: 08019f6128f0c024eaaf07f729aa4588, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0a6bd459dd7d9a64f952aeb6c424f093, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
@@ -60,52 +60,61 @@ Material:
     - _AlphaCutoff: 0.5
     - _BackGlow: 0.46
     - _BoostLight: 1
-    - _CausticFX_inDarkness: 0.56
-    - _CausticPower: 2.97
-    - _CausticRotationAdjust: -0.21
-    - _CausticTweak: 2.1
+    - _CausticFX_inDarkness: 0.038
+    - _CausticPower: 6.91
+    - _CausticRotationAdjust: 0
+    - _CausticSize: 0.444
+    - _CausticTweak: 2.48
     - _EyeBallMetalness: 0.102
     - _EyeSSS: 0
-    - _EyeShadingPower: 1.08
+    - _EyeShadingPower: 0.4
     - _EyeSize: 0.84
     - _Eyeball_microScatter: 1.64
     - _FactorInLimbalRing: 0
+    - _FalloffAdjuster: 1.52
+    - _Final_Illumination_Modifier: 0.23
+    - _Final_Illumination_Power: 1.51
     - _ForceCausticFX: 3.89
     - _ForcedCausticFX: 0.839
     - _FrontGlow: 0.72
+    - _IrisParallaxPower: 0.332
     - _IrisPupilBond: 0.0124
     - _IrisPupilMetalness: 0.103
     - _IrisRotationAnim: 0
     - _IrisRotationAnimation: 0
     - _IrisSize: 1.98
-    - _LensGloss: 0.991
-    - _LensPush: 0.088
-    - _LimbalEdge_Adjustment: 0.422
+    - _LensGloss: 0.797
+    - _LensPush: 0.6
+    - _LimbalEdge_Adjustment: 0.633
     - _LimbalRingGloss: 0.277
     - _LimbalRingMetalness: 0.436
     - _MetalNess: 0.4
-    - _MicroScatterScale: 0.221
-    - _MinimumGlow: 0.004
-    - _PupilAffectedByLight_Amount: 0.192
-    - _PupilAutoDilateFactor: 25.1
+    - _MicroScatterScale: 0.322
+    - _MinimumGlow: 0.403
+    - _PupilAffectedByLight_Amount: 0.345
+    - _PupilAutoDilateFactor: 7
     - _PupilHeight1Width1: 3.4
     - _PupilHeightWidthRatio: 1
     - _PupilParallaxHeight: 1.64
     - _PupilSharpness: 3.19
     - _PupilSize: 73.7
+    - _PupilWidthHeightRatio: 1
     - _PushParallaxMask: 1.64
     - _SSS_Adjuster: 0.737
     - _ScleraBumpScale: 0.863
-    - _SubSurfaceFromDirectionalLight: 0.781
+    - _SkyAmbientControl: 1.05
+    - _SubLightFactor: 0.0384
+    - _SubSurfaceFromDirectionalLight: 0.422
     - __dirty: 0
+    - _para2: 0
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EyeBallColorGlossA: {r: 0.4716981, g: 0.40717334, b: 0.40717334, a: 0.70980394}
-    - _EyeVeinColorAmountA: {r: 0.745283, g: 0.745283, b: 0.745283, a: 0.62352943}
+    - _EyeBallColorGlossA: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0.94509804}
+    - _EyeVeinColorAmountA: {r: 0.4056604, g: 0.09458373, b: 0, a: 0.90588236}
     - _IrisBaseColor: {r: 0.04411763, g: 0.012975773, b: 0.012975773, a: 1}
     - _IrisExtraColorAmountA: {r: 0.6509434, g: 0.50494426, b: 0.14431292, a: 0.403}
+    - _LightTint: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
     - _MetalnessMixerRGB: {r: 0.19, g: 0.61, b: -0.1, a: 0}
     - _PupilColor: {r: 1, g: 0, b: 0, a: 0}
     - _PupilColorEmissivenessA: {r: 0, g: 0, b: 0, a: 1}
     - _RingColorAmount: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []

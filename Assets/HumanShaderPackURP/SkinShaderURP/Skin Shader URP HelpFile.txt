@@ -1,0 +1,90 @@
+Thanks for buying Skin Shader for URP.
+
+For access to other render piplines and versions go here: https://drive.google.com/drive/folders/1iOarCgjRRlOnc4ZFpmApc2ZGvBC_Fp0R?usp=sharing
+
+Skin Shaders:
+
+RRF_HumanShaders/Skin/RRF_HSP_URP_SkinBasic
+-------------------------------------------------
+
+BaseColourTint = Tint the overall material.
+Desaturation = Move left for more Vibrant colour, more right for more grey colour
+
+Albedo Texture = RGB Colour for the skin
+Normal Map = RGB Normal Map (open GL)
+Normal_BaseStrength = The power of the Normal Map (1 is the default)
+SSSMap = RGBA Texture (Preferably a 32bit Targa Map)   A texture that holds the colour of the subsurface scatter, if you dont have one, use the Albedo texture
+	If you do have one, the Alpha stores the Thickness, white where the areas of the skin are thin, like ears, nostrils and around the eyes.
+
+SSS Mip = This blurrs the Textures to make the SSS effect Softer
+Final SSS = The overall Power of the Sub Surface Scattering
+SSS_FromAlpha = The amount that the SSS effect uses the Alpha channel of the SSS_Map texture, if not, it will borrow the red channel from the SSS Map used.
+Smoothness = The smoothness of the skin (Gloss)
+GlossMap = The Amount of Gloss (stored in the Alpha of the Texture) Metalness is RGB channels
+
+LightPower = The amount the incoming light is magnified
+BaseGlow = The amount the skin should have self illumination
+
+
+
+RRF_HumanShaders/Skin/SimpleSSS6_URP
+-------------------------------------------------
+
+Actually these shaders have evolved more and are more comples than the Basic shaders above
+
+MainLightTint = Tint the Incoming Light
+Albedo_tint = Tine the Albedo Texture (good for making new skin tones)
+
+Albedo (texture)
+Desaturation = Move left for more Vibrant colour, more right for more grey colour
+Normal Map = RGB Normal Map (open GL)
+Metal-Gloss = RGBA (Metal is stored in RGB, Gloss stored in A)
+SmoothnessDeviate = Changing the overall smoothness look
+
+SSS-Texture-Weight(A) - RGBA Texture (Preferably a 32bit Targa Map)   A texture that holds the colour of the subsurface scatter, if you dont have one, use the Albedo texture
+	If you do have one, the Alpha stores the Thickness, white where the areas of the skin are thin, like ears, nostrils and around the eyes.
+SSS-WeightAmount = How much it uses the Alpha of the above texture
+SSS_ToEmissive = Extra Glow for the SSS
+ScatterColor = Attempts to tint the SSS but mainly overrode by the SSS texture colouring
+Light_Bias,Scale,Scatter = Affects the way the Light affects the SSS areas
+BackScatterPower = Affects the Light coming from behind
+
+MicroDetail(NormalMap) =  A normal Map that can be tiles to act like skin texture/pores : examples are provided (SkinMicroB_Norm, SkinMicroD_Norm)
+MicroDetail_Tiling,Offset,Power = Controls for the Micro Detail normal map
+
+MakeUpMask 1+2
+Each hold RGB values, thick of each Channel as a separate mask. These textures must correspond to the UVs of the model they are being applied to, your Character artists will understand these.
+Mask1_Rchannel_Colour-Amount(A) = The Colour the Red Tones of Mask 1 should be changed to, and the Amount controlled by the Alpha amount of that.
+respective for B
+respective for G
+Respective for Mask2
+GlossAdjust = the Gloss amount for the Above channel masks.
+
+Final Normal Map Power = Final Boost/reduction of the normal maps
+BaseGlow = The colour maps are used as an emissive amount so the head wont go too dark in night time scenes.
+SSS_Low = The lowest amount of Sub Surface Scattering
+SSS_High = The highest amount of Sub Surface Scattering
+
+
+
+RRF_HumanShaders/Skin/SimpleSSS6_Cutout_Basic_URP
+-------------------------------------------------
+
+Removed Makupcontrol for this shader, supplied Cutout Mask. (Single Sided shader)
+
+
+
+For variations of shaders please get in touch. I like nice reviews, so in return for my helping you out, that is all I ask.
+me@robertramsay.co.uk
+have an awesome day!
+Thanks, Robert
+
+
+
+
+
+
+
+
+
+	

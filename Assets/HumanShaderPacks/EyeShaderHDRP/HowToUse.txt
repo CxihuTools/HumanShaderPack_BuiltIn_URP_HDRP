@@ -1,4 +1,15 @@
-Welcome to the Eye-Ball Shader - Created using Amplify Shader - Unity 2017.x
+Welcome to the Eye-Ball Shader - Created using Amplify Shader - Unity 
+
+May 19th 2020. Eye Shader 3 URP and Eye Shader 4 URP shaders tweaked and improved. 
+Access to other Versions or render pipelines :https://drive.google.com/drive/folders/1YmjuzeFTJEA1acmqRXujx_vHzl3EbOoe?usp=sharing
+
+--------------------------------------------------
+Archive / Changelist
+--------------------------------------------------
+Version 2.0 - 1st Feb 2021
+
+URP Unity 2020.2 - Eye Shader Model 4 differs alot from Eyeshader model 3, it will look brighter do to improved caustics and other features, may need toned down witht he iris colours and caustic values. 
+Use the premade materials as a starting point. Preview video: https://youtu.be/XNI5AoOm5eU
 
 Version 1.9 - 27th Feb, 2019
 	Added auto dilate for the pupil (EyeShader3) - Requires a Directional light, affected by direction into the eye and intensity.

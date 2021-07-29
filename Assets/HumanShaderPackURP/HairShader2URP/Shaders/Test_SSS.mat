@@ -72,9 +72,9 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaxNew: 1.01
+    - _MaxNew: 0.1
     - _Metallic: 0
-    - _MinNew: -0.07
+    - _MinNew: 0.15
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1

@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EyeShader4_Fire
+  m_Shader: {fileID: 4800000, guid: 08019f6128f0c024eaaf07f729aa4588, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticMask:
+        m_Texture: {fileID: 2800000, guid: d9e87f40b033e4245bb68d58ff0930bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeExtras:
+        m_Texture: {fileID: 2800000, guid: ea1c686f188c8ef46b8c015f1c344441, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisExtraDetail:
+        m_Texture: {fileID: 2800000, guid: e988a3899ec59bd4c807ce4976eca317, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lens_Base_Normal:
+        m_Texture: {fileID: 2800000, guid: e575b95fc35e1be4c93f2b963878ec25, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapBase:
+        m_Texture: {fileID: 2800000, guid: 8ee6d0418eaa08e40ad667b400177c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMask:
+        m_Texture: {fileID: 2800000, guid: 451268057d3fa344e8695ec36ec39129, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBMask:
+        m_Texture: {fileID: 2800000, guid: 453e04636b09b5b4eb161f8a456e708f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sclera_Normal:
+        m_Texture: {fileID: 2800000, guid: d608c45da8580c9408ee50eb9a8c40f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Adj: 0
+    - _AffectsNormalGloss: 0.3
+    - _AlphaCutoff: 0.5
+    - _BackGlow: 0.46
+    - _BackSSSAdjuster: -1.69
+    - _BackSSSPower: 1.12
+    - _BaseGlow: 4.81
+    - _BoostEyeWhite: 1.271
+    - _BoostLight: 1.4
+    - _BumpScale: 1
+    - _C: 29.29
+    - _CausticAngle: 1.02
+    - _CausticBoost: 0.22
+    - _CausticFX_inDarkness: 0.223
+    - _CausticOffset: 0.68
+    - _CausticPower: 1.83
+    - _CausticRotationAdjust: -0.549
+    - _CausticScale: 1
+    - _CausticSize: 0.394
+    - _CausticTweak: 0.47
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EyeBallMetalness: 0.377
+    - _EyeSSS: 0
+    - _EyeShadingPower: 0.9
+    - _EyeSize: 0.94
+    - _Eyeball_microScatter: 3.8
+    - _Eyeshading: 0
+    - _FactorInLimbalRing: 0
+    - _FalloffAdjuster: 4.32
+    - _FinalSSS_Desaturate: 0.329
+    - _FinalSSS_Mixer: 0.698
+    - _Final_illumination: 0.083
+    - _Float0: 0
+    - _Float1: 0
+    - _Float3: 0
+    - _ForceCausticFX: 3.89
+    - _ForcedCausticFX: 0.839
+    - _FrontGlow: 0.72
+    - _GlobalEmissive: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IrisDirectHitPower: 46.2
+    - _IrisGlow: 3.36
+    - _IrisParallaxPower: 0.188
+    - _IrisPupilBond: 0.0423
+    - _IrisPupilMetalness: 0.447
+    - _IrisRotationAnim: 0
+    - _IrisRotationAnimation: 0
+    - _IrisSize: 3.91
+    - _LensGloss: 0.684
+    - _LensMaskLevel: 0
+    - _LensPush: 0.783
+    - _LimbalEdge_Adjustment: 0.778
+    - _LimbalEdge_Finesse: 1.36
+    - _LimbalRingEmissivePower: 0.37
+    - _LimbalRingGloss: 0.443
+    - _LimbalRingMetalness: 0.436
+    - _LimbalRing_lerpSmoothness: 0
+    - _LimbalRing_smoothness: 0
+    - _MetalNess: 0.04
+    - _Metallic: 0
+    - _MicroScatterScale: 0.311
+    - _MinimumGlow: 0.254
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _ParalaxH: 0
+    - _Parallax: 0.02
+    - _ParallaxMaskInverter: 0.377
+    - _PowerFocal: 0.19
+    - _PupilAffectedByLight_Amount: 0.32
+    - _PupilAutoDialateFactor: 16.3
+    - _PupilAutoDilateFactor: 20.8
+    - _PupilHeight1Width1: 4.61
+    - _PupilHeightWidthRatio: 6.06
+    - _PupilParallaxHeight: 1.27
+    - _PupilSharpness: 0.67
+    - _PupilSize: 46.7
+    - _PushCausticFX: 0.589
+    - _PushParallaxMask: 2.36
+    - _SSS: 0.1
+    - _SSS_Adjuster: 1
+    - _SSS_Adjuster2: 0.195
+    - _SSS_Light_Contact: 1
+    - _SSS_Spread: 0
+    - _ScatterAdd: 0.23
+    - _ScleraBumpScale: 3.49
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SubSurfaceFromDirectionalLight: 0.87
+    - _TEST: 0
+    - _TransAmbient: 0.632
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.111
+    - _TransScattering: 5.4
+    - _TransShadow: 1
+    - _Translucency: 6.3
+    - _TranslucencyPower: 0.129
+    - _UVSec: 0
+    - _UseDirectionalLightColour: 0.496
+    - _Veins: 0.708
+    - _ZWrite: 1
+    - __dirty: 0
+    - _adj: 0
+    - _para2: 0
+    m_Colors:
+    - _BSP_IrisDirectLit: {r: 0.23, g: -2.9, b: 4, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CuasticOffsetTone: {r: 1, g: 0.9672414, b: 0.8602941, a: 0}
+    - _Direction: {r: 0, g: 0, b: 0, a: 0}
+    - _Dunno: {r: 0.44827604, g: 0, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EyeBallColorGlossA: {r: 0.004726029, g: 0.003159495, b: 0.6698113, a: 0.2784314}
+    - _EyeVeinColorAmountA: {r: 0, g: 0, b: 0, a: 0.96862745}
+    - _FresLightEyeBall: {r: 0.7, g: -0.3, b: -0.15, a: 0}
+    - _IncomingLightColour_DesatSrcA: {r: 1, g: 1, b: 1, a: 0}
+    - _IrisBaseColor: {r: 0.7075472, g: 0.3467278, b: 0.24363652, a: 1}
+    - _IrisColorCausticLerpA: {r: 0.4482759, g: 1, b: 0, a: 0}
+    - _IrisExtraColorAmountA: {r: 0.6415094, g: 0.3361844, b: 0.07665824, a: 1}
+    - _MetalnessMixerRGB: {r: 0, g: 0, b: 0, a: 0}
+    - _PupilColor: {r: 0, g: 0, b: 0, a: 0}
+    - _PupilColorEmissivenessA: {r: 0, g: 0, b: 0, a: 1}
+    - _RingColorAmount: {r: 0, g: 0, b: 0, a: 1}
+    - _SSSColour_DesatA: {r: 0.084905684, g: 0.06367926, b: 0.06367926, a: 1}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}

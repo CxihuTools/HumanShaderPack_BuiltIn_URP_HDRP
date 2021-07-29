@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Hair_VRTC_Female_1a_Brown
   m_Shader: {fileID: 4800000, guid: 2fe3ea6633b3b9c41a0d39c22fd85f26, type: 3}
-  m_ShaderKeywords: _USEVRTC_BIASANDSCALE_ON
-  m_LightmapFlags: 2
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -81,42 +81,46 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Adjust: 0.5
-    - _AlphaClipThreshold: 0.5
+    - _AlphaClipThreshold: 0.325
     - _AlphaCutoff: 0.5
     - _AlphaPower: 0.28
     - _Alpha_Level: 2
-    - _BaseIllumination: 0.072
-    - _BumpPower: 0.91
+    - _BaseIllumination: 0.102
+    - _BumpPower: 0.97
     - _BumpScale: 1
     - _Cutoff: 0.63
     - _DetailNormalMapScale: 1
-    - _DitheringAmount: 0
+    - _DitherAmount: 0.153
     - _DstBlend: 0
+    - _FakeOccAdj: 0.4
+    - _FakeOccPower: 0.74
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightScatter: 0.372
-    - _Light_Bias: 0.0205
+    - _LightScatter: 0.493
+    - _Light_Bias: 0.0614
     - _Light_Scale: 4.73
-    - _MainHighlightExponent: 220
-    - _MainHighlightPosition: 0.41
-    - _MainHighlightStrength: 0.23
-    - _Metallic: 0.576
+    - _MainHighlightExponent: 791
+    - _MainHighlightPosition: 0.27
+    - _MainHighlightStrength: 0.622
+    - _Metallic: 0.545
     - _Mode: 0
     - _MotionDistance: 0.1
     - _NoisePower: 137.46
+    - _NoisePowerX: 1829
+    - _NoisePowerY: 6
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PushHairs: 0
     - _PushHairs_Bias: 1
     - _PushTips: 0
-    - _SSS: 0.273
-    - _SecondaryHighlightExponent: 14
-    - _SecondaryHighlightPosition: 0.68
-    - _SecondaryHighlightStrength: 0.3
+    - _SSS: 0.26
+    - _SecondaryHighlightExponent: 272
+    - _SecondaryHighlightPosition: 0.44
+    - _SecondaryHighlightStrength: 0.212
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Spread: 0.79
+    - _Spread: 1.29
     - _SrcBlend: 1
     - _Stretch: 0.692
     - _TransAmbient: 0.2
@@ -126,19 +130,18 @@ Material:
     - _TransShadow: 0.9
     - _Translucency: 1
     - _UVSec: 0
-    - _UseVRTC_BiasAndScale: 1
-    - _VRTC_Bias: 0.42
-    - _VRTC_Scale: 0.52
-    - _XTiling: 5.42
+    - _UseVRTC_BiasAndScale: 0
+    - _VRTC_Bias: 0.349
+    - _VRTC_Scale: 1
+    - _XTiling: 5.18
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainHighlight_Color: {r: 0.64705884, g: 0.5614187, b: 0.5614187, a: 1}
+    - _MainHighlight_Color: {r: 0.6698113, g: 0.60761917, b: 0.5623887, a: 1}
     - _RootColorPowerA: {r: 0, g: 0, b: 0, a: 0.909}
-    - _SecondaryHighlightColor: {r: 0.71323526, g: 0.39502817, b: 0.277952, a: 1}
-    - _TipColorPowerA: {r: 0.31617647, g: 0.2715398, b: 0.20458478, a: 0.759}
-    - _VariantColor1_GlossA: {r: 0.25735295, g: 0.14479366, b: 0.11543037, a: 0.103}
-    - _Variant_Color2_GlossA: {r: 0.38235295, g: 0.22367258, b: 0.120891005, a: 0.441}
-  m_BuildTextureStacks: []
+    - _SecondaryHighlightColor: {r: 0.7264151, g: 0.1963284, b: 0, a: 1}
+    - _TipColorPowerA: {r: 0.4528302, g: 0.13848753, b: 0.05980777, a: 1}
+    - _VariantColor1_GlossA: {r: 0.13207546, g: 0.07738639, b: 0.062299736, a: 0.26666668}
+    - _Variant_Color2_GlossA: {r: 0.38235292, g: 0.22367254, b: 0.12089098, a: 0.34509805}

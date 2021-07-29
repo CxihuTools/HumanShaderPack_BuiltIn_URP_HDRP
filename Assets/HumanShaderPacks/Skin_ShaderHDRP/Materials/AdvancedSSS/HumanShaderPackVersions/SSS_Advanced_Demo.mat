@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SSS_Advanced_Demo
   m_Shader: {fileID: 4800000, guid: d6b0cb9769edbdf4abf0dfda70f4b919, type: 3}
-  m_ShaderKeywords: _FLIPPOROSITY_ON
+  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _FLIPPOROSITY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -140,15 +142,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AddPrecomputedVelocity: 1
     - _AdditionalScatter_Bias: 0.03
     - _AdditionalScatter_Power: 1.25
     - _AdditionalScatter_Scale: 0.145
     - _AlbedoAndSSS_Mixing: 0.551
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
     - _BackScatter: 2.54
     - _BackScatterPower: 0.364
     - _BaseGlow: 0.071
     - _BaseSSSGlow: 0.25
     - _BaseSSS_Lerp: 0.69
+    - _BaseToneGlow: 0
+    - _BlendMode: 0
     - _BlinnNormalPower: 1
     - _BlinnShinePower: 0
     - _BumpScale: 1
@@ -156,11 +165,16 @@ Material:
     - _ClearCoatPower: 1.05
     - _ClearCoat_High: 27.5
     - _Clearcoat_Low: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
     - _Curvature_Power: 1.34
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DirectScatter: 4.86
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EnableFogOnTransparent: 1
     - _FinalNormalMapPower: 0.37
     - _FinallAttentuation: 0
     - _FlipPorosity: 1
@@ -202,6 +216,9 @@ Material:
     - _Parallax: 0.02
     - _PorosityEffect: 0.386
     - _PorosityPower: 6.89
+    - _ReceivesSSR: 1
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
     - _RimScatterAmount: 1.81
     - _RimScatterBiasControl: 0.536
     - _RimScatterPowerControl: 0.49
@@ -228,13 +245,32 @@ Material:
     - _Smoothness_Multiplier: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SurfaceType: 0
     - _TransAmbient: 0
     - _TransDirect: 0.995
     - _TransNormalDistortion: 0.357
     - _TransScattering: 9.3
     - _TransShadow: 0.941
     - _Translucency: 9.8
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _TransparentZWrite: 1
     - _UVSec: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -245,7 +281,8 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.48575065, b: 0.6838235, a: 0}
     - _ColorPowerRGB: {r: 1.01, g: 0.18, b: 0.56, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FuzzColor: {r: 1, g: 1, b: 1, a: 0}
     - _FuzzColorAmountA: {r: 0.2647059, g: 0.2179931, b: 0.2179931, a: 0.272}
     - _GlossAdjustingRGB: {r: 0.26, g: 0.16, b: 0.2, a: 0}
@@ -271,3 +308,4 @@ Material:
     - _ScatterColor: {r: 1, g: 0.2028302, b: 0.2028302, a: 0}
     - _ScatterLightTint: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

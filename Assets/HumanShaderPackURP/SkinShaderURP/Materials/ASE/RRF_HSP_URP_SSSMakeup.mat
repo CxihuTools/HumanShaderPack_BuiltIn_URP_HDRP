@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 2b9a78dad7bba5f4e87e8ff743b25f79, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0260083bbedd7c6429e6919fc5564e85, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo_Texture:
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MakeUpMask2_RGB:
-        m_Texture: {fileID: 2800000, guid: b31764c08ef814e458777a58ad16ce45, type: 3}
+        m_Texture: {fileID: 2800000, guid: f741a9a852f37114883f4edcc8a4f63b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetalGloss:
@@ -76,10 +76,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OpacityTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -132,9 +128,9 @@ Material:
     - _AdditionalSmoothness: 0.383
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _BackScatterPower: 2.44
+    - _BackScatterPower: 0.06
     - _BackScatterPower1: 2.11
-    - _BaseGlow: 0.068
+    - _BaseGlow: 0.042
     - _BaseSSS: 0.974
     - _Blend: 0
     - _BumpScale: 1
@@ -142,38 +138,37 @@ Material:
     - _CBS_Scale: -0.08
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Desaturation: 0.63
+    - _Desaturation: 0.71
     - _DstBlend: 0
+    - _EnhanceMasks: 1.27
     - _EnvironmentReflections: 1
-    - _FinalMakeUpMaskAdjuster: 0.008
-    - _FinalMetallnessAdjust: 0.029
-    - _FinalNormalMapPower: 1.52
+    - _FinalNormalMapPower: 1.866
     - _Final_SSS: 0.607
     - _FresBias: -0.75
     - _FresPower: 0.96
     - _FresScale: 1
-    - _GlossAdjust_Mask1Bchannel: 0.35
-    - _GlossAdjust_Mask1Gchannel: 0.87
-    - _GlossAdjust_Mask1Rchannel: 0.09
-    - _GlossAdjust_Mask2Bchannel: 0.86
-    - _GlossAdjust_Mask2Gchannel: 0.23
-    - _GlossAdjust_Mask2Rchannel: -1
+    - _GlossAdjust_Mask1Bchannel: 0.207
+    - _GlossAdjust_Mask1Gchannel: -0.6
+    - _GlossAdjust_Mask1Rchannel: -0.224
+    - _GlossAdjust_Mask2Bchannel: -0.52
+    - _GlossAdjust_Mask2Gchannel: -0.63
+    - _GlossAdjust_Mask2Rchannel: -0.345
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Glow: 0.096
-    - _LightScatter: 0.475
+    - _LightScatter: 0.849
     - _LightScatter1: 0.4
-    - _Light_Bias: 0.351
+    - _Light_Bias: 0.545
     - _Light_Bias1: 0.16
     - _Light_In_High: 1
     - _Light_In_Low: -0
-    - _Light_Scale: 4.07
+    - _Light_Scale: 4.64
     - _Light_Scale1: 3.7
     - _Metallic: 0
-    - _MicroDetail_Offset: 0.272
-    - _MicroDetail_Power: 0.55
-    - _MicroDetail_Tiling: 9.32
+    - _MicroDetail_Offset: 0.388
+    - _MicroDetail_Power: 0.36
+    - _MicroDetail_Tiling: 8
     - _Normal_BaseStrength: 2.17
     - _OcclusionStrength: 1
     - _PityPower: 0.352
@@ -184,33 +179,35 @@ Material:
     - _SSS_Low: 0
     - _SSS_Mip: 5.4
     - _SSS_Profile: 0.675
-    - _SSS_ToEmissive: 0.54
-    - _SSS_WeightAmount: 0.384
+    - _SSS_ToEmissive: 1.747
+    - _SSS_WeightAmount: 1
     - _SSS_WeightAmount1: 0.48
     - _Smoothness: 1.63
-    - _SmoothnessDeviate: 0.14
+    - _SmoothnessDeviate: -0.06
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _Tweaker: 0.748
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo_Tint: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 0}
+    - _Albedo_Tint: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainLightTint: {r: 0.11320752, g: 0.09845583, b: 0.085973635, a: 0}
-    - _Mask1_Bchannel_ColorAmountA: {r: 0.3679245, g: 0.08851013, b: 0.08851013, a: 1}
-    - _Mask1_Gchannel_ColorAmountA: {r: 0.6132076, g: 0.26321647, b: 0.2708805, a: 0.8784314}
-    - _Mask1_Rchannel_ColorAmountA: {r: 0, g: 0.3403827, b: 0.54901963, a: 0.96862745}
-    - _Mask2_Bchannel_ColorAmountA: {r: 0.772549, g: 0.7037676, b: 0.1999999, a: 0}
-    - _Mask2_Gchannel_ColorAmountA: {r: 0.772549, g: 0.19999993, b: 0.6776864, a: 0}
+    - _MainLightTint: {r: 0.49056602, g: 0.36579037, b: 0.27305087, a: 0}
+    - _Mask1_Bchannel_ColorAmountA: {r: 0.5188679, g: 0, b: 0.02730898, a: 0.3019608}
+    - _Mask1_Gchannel_ColorAmountA: {r: 0.4716981, g: 0.16909933, b: 0.17592484, a: 0.8784314}
+    - _Mask1_Rchannel_ColorAmountA: {r: 0.052064788, g: 0.117874786, b: 0.4245283,
+        a: 0.99607843}
+    - _Mask2_Bchannel_ColorAmountA: {r: 0.20616764, g: 0.25553098, b: 0.38679245,
+        a: 1}
+    - _Mask2_Gchannel_ColorAmountA: {r: 0.3490566, g: 0.118547514, b: 0.3115989, a: 0.8862745}
     - _Mask2_Rchannel_ColorAmountA: {r: 0, g: 0, b: 0, a: 1}
-    - _ScatterColor: {r: 1, g: 0.49471372, b: 0.48584902, a: 0.6666667}
+    - _ScatterColor: {r: 0.5566038, g: 0, b: 0.058174815, a: 0}
     - _ScatterColor1: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-  m_BuildTextureStacks: []
 --- !u!114 &8804542147997211847
 MonoBehaviour:
   m_ObjectHideFlags: 11
